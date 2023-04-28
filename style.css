@@ -1,0 +1,167 @@
+/* ポートフォリオのタイトル */
+.Top h1 {
+  position: fixed;
+  font-family: serif;
+  font-size: 40px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+/* ヘッダー */
+.header-nav {
+  background-color: #000;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav {
+  margin-right: 5%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f00;
+}
+
+header {
+  height: 60px;
+  background-color: #000;
+}
+
+/* 背景画像 */
+body {
+  background-image: url("pictures/あべのハルカス.jpg");
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  background-size: cover;
+  background-position: center;
+}
+
+/*   First block   */
+#first-block {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home {
+  text-align: center;
+}
+/* ホームタイトル */
+.HomeTitle {
+  font-size: 50px;
+  font-family: serif;
+  color: #444;
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* Aboutmeタイトル */
+.Aboutme {
+  font-size: 50px;
+  font-family: serif;
+  color: #444;
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 60px;
+}
+
+#second-block {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.about {
+  font-size: 25px;
+  font-family: serif;
+  color: #444;
+  padding: 20px;
+}
+
+.about summary {
+  font-size: 30px;
+  font-family: serif;
+  color: #444;
+}
+
+/* Photoタイトル */
+.Photo {
+  font-size: 50px;
+  font-family: serif;
+  color: #444;
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 60px;
+}
+
+/* 自分の写真 */
+.self-pic {
+  width: 35%;
+  height: 35%;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.3);
+}
+/* 名前編集 */
+h2 {
+  font-size: 30px;
+  font-family: serif;
+  color: #444;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* 写真単体の編集 */
+.photo {
+  width: 35%;
+  height: 35%;
+  padding: 10px;
+}
+
+/* 写真の配置 */
+.photo1-container {
+  display: inline-flex;
+  overflow-x: auto;
+  flex-direction: row;
+}
+
+.photo2-container {
+  display: inline-flex;
+  overflow-x: scroll;
+  flex-direction: row;
+}
+
+.photo3-container {
+  display: inline-flex;
+  overflow-x: scroll;
+  flex-direction: row;
+}
+
+/* フッター */
+footer {
+  height: 50px;
+  background-color: #000;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50px;
+  background-color: #000;
+  font-size: 15px;
+  color: #fff;
+}
